@@ -1,0 +1,71 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.follow-card {
+  background-color: #10163a;
+  border-radius: 8px;
+  padding: 20px;
+  width: 460px;
+}
+
+.follow-card .information {
+  text-align: center;
+}
+
+.follow-card .information h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.follow-card .information p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #b8c2cc;
+  margin: 5px 0 0 0;
+}
+
+.follow-card .information img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 30px 0;
+}
+
+.follow-card .statistic {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.follow-card .statistic .item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #c2c6dc;
+  margin: 0;
+}
+
+.follow-card .statistic .item p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b8c2cc;
+  margin: 0;
+}
+
+.follow-card button {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(
+    90deg,
+    #8471f2 32.98%,
+    rgba(193, 151, 250, 0.89) 100%
+  );
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
