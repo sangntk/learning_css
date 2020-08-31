@@ -1,0 +1,32 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.side-bar {
+  width: 260px;
+  height: 230px;
+  background-color: #212744;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.side-bar h2 {
+  font-size: 14px;
+  color: #C2C6DC;
+}
+
+.side-bar ul {
+  margin-left: -30px;
+  color: #C2C6DC;
+}
+
+.side-bar li {
+  padding: 5px;
+}
+
+li:hover {
+  background: #7367F0;
+  border-radius: 4px;
+  width: 220px;
+  height: 28px;
+} 
